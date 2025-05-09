@@ -20,12 +20,6 @@ npm run start
 
 ## Структура проекта (важные файлы)
 ```
-state-manage/
-├── packages/
-│   ├── state-manager/  # Библиотека стейт-менеджера
-│   └── example/        # Пример приложения с использованием библиотеки
-├── package.json        # Конфигурация монорепозитория 
-└── .gitignore
 state-manager/
 ├── packages/
 │   ├── state-manager/           # Библиотека стейт-менеджера
