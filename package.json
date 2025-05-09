@@ -1,0 +1,17 @@
+{
+  "name": "monorepo",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build:lib": "npm run build --workspace=state-manager",
+    "dev:lib": "npm run dev --workspace=state-manager",
+    "build:app": "npm run build --workspace=todo",
+    "dev:app": "npm run dev --workspace=todo",
+    "start": "npm run dev --workspace=todo"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
