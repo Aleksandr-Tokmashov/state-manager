@@ -1,5 +1,5 @@
 import { ChangeEvent, useState, FC, useEffect, FormEvent } from "react";
-import { TTask } from "../App/App";
+import { TTask } from "../../store";
 import './NewTaskForm.css';
 
 interface NewTaskFormProps {

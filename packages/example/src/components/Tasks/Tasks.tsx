@@ -1,5 +1,5 @@
 import { FC } from "react";
-import { TTask } from "../App/App";
+import { TTask } from "../../store";
 import './Tasks.css';
 
 interface TasksProps {
