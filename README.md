@@ -2,7 +2,7 @@
 ## Инструкция по запуску
 Склонируйте репозиторий к себе на компьютер командой:
 ```bash
-git clone git@github.com:Aleksandr-Tokmashov/state-manager.git`
+git clone git@github.com:Aleksandr-Tokmashov/state-manager.git
 cd state-manager
 ```
 
